@@ -3,7 +3,7 @@ from telegram.ext import Application, ContextTypes, MessageHandler, filters, Com
 import telegram
 
 # Replace with your bot token
-BOT_TOKEN = "8063156470:AAG0MIHhjA4L_vKqtPr_kKeiPdxG6zTNgHQ"
+BOT_TOKEN = ""
 
 async def welcome_new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Welcome new members when they join the group"""
